@@ -15,7 +15,7 @@ const me = {
   lastName: 'Fiedorowicz',
   hasSiblings: true,
   shoeCount: 5,
-  favThreeFoods: ['Lumpia', 'steak', 'chicken wings']
+  favThreeFoods: ['lumpia', 'steak', 'chicken wings']
 };
 console.log('1. A little about me:', me);
 
@@ -34,7 +34,8 @@ console.log('2. Full name:', fullName);
   - Console.log your last favorite food 
 */
 
-
+console.log('3. First favorite food:', me.favThreeFoods[0]);
+console.log('3. Last favorite food:', me.favThreeFoods[2]);
 
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
