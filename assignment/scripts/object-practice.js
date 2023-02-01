@@ -17,7 +17,7 @@ const me = {
   shoeCount: 5,
   favThreeFoods: ['Lumpia', 'steak', 'chicken wings']
 };
-console.log('A little about me:', me);
+console.log('1. A little about me:', me);
 
 /* 2. Accessing object properties.
   - Create a variable called fullName 
@@ -26,7 +26,8 @@ console.log('A little about me:', me);
   - Console.log fullName
 */
 
-
+let fullName = `${me.firstName} ${me.lastName}`;
+console.log('2. Full name:', fullName);
 
 /* 3. Nested arrays
   - Console.log your first favorite food
